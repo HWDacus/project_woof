@@ -1,38 +1,66 @@
 * {
 	box-sizing: border-box;
 }
+.clear {
+	clear: both;
+}
 header {
-	padding: 100px;
+	padding: 10px;
 	margin: -8px;
 	margin-left: -8px;
 	margin-right: -8px;
 	background-color: #704e2e;
+	text-align: center;
+	font-family: Chalkduster, fantasy;
+}
+header img {
+	width: 20px;
+	vertical-align: middle;
 }
 body {
 	background-color: #644536;
 }
 div.div1 {
-	padding: 97px;
+	padding: 15px;
 	margin: 60px;
 	margin-left: 50px;
-	margin-right: 650px;
+	margin-right: 250px;
 	background-color: #a8763e;
 }
 div.div1 img {
-	
+	width: 360px;
+	float: left;
+}
+.text-wrap {
+	float: left;
+	width: 60%;
+}
+h1 {
+	text-align: center;
+	font-family: Chalkduster, fantasy;
+}
+
+.p1 {
+	text-align: center;
+	font-family: Bradley Hand, cursive;
+}
+.p2 {
+	margin-top: 30px;
+	text-align: center;
+	font-family: Bradley Hand, cursive;
 }
 div.div2 {
 	padding: 200px;
 	margin: 60px;
-	margin-left: 650px;
+	margin-left: 250px;
 	margin-right: 50px;
 	background-color: #a8763e;
 }
 div.div3 {
-	padding: 100px 150px 0px 150px;
+	padding: 10px;
 	margin: 60px;
-	margin-left: 50px;
-	margin-right: 650px;
+	margin-left: 250px;
+	margin-right: 50px;
 	background-color: #a8763e;
 
 }
@@ -40,20 +68,34 @@ div.div3 ul {
 	list-style-type: none;
 }
 div.div3 ul li {
-	list-style-image: url(../img/doge.png);
-	padding: 20px 0;
+	padding: 0px 0;
 	position: relative;
 	margin-bottom: 50px;
 }
-div.div3 ul li p {
-	position: relative;
-	top: -45px;
+div.div3 ul li img {
+	width: 75px;
+	display: inline-block;
+	vertical-align: middle;
 }
-div.div4 {
-	padding: 200px 100px;
-	margin: 60px;
-	margin-left: 650px;
-	margin-right: 50px;
-	margin-bottom: 60px;
-	background-color: #a8763e;
+div.div3 ul li p {
+	display: inline-block;
+	vertical-align: middle;
+	font-family: Bradley Hand, cursive;
+	font-size: 19px;
+	width: 80%;
+	margin-left: 15px;
+}
+h3 {
+	text-align: center;
+	font-family: Chalkduster, fantasy;
+	font-size: 30px;
+}
+footer {
+	padding: 10px;
+	margin-bottom: -8px;
+	margin-left: -8px;
+	margin-right: -8px;
+	background-color: #704e2e;
+	text-align: center;
+	font-family: Chalkduster, fantasy;
 }
